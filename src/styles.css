@@ -1,0 +1,41 @@
+/* estilo geral da janela (vbox) */
+.root {
+    -fx-background-color: #2D2D2D; /* fundo cinza escuro */
+    -fx-font-family: "Helvetica", sans-serif;
+}
+
+/* estilo para todos os labels */
+.label {
+    -fx-text-fill: #E0E0E0; /* texto cinza claro */
+    -fx-font-size: 14px;
+}
+
+/* estilo para o campo senha gerada  */
+.campo-senha-gerada {
+    -fx-background-color: black;
+    -fx-text-fill: #00FF00; /* Texto verde */
+    -fx-font-family: "Monospaced", monospace;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-color: #00FF00;
+    -fx-border-width: 1px;
+}
+
+/* estilo para o botaoo */
+.button {
+    -fx-background-color: #007ACC; /* azul */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px; /* bordas arredondadas */
+}
+
+/* efeito quando o mouse passa por cima do botao */
+.button:hover {
+    -fx-background-color: #005A9E; /* azul escuro */
+}
+
+/* efeito quando o botão é pressionado */
+.button:pressed {
+    -fx-background-color: #003D6B;
+}
